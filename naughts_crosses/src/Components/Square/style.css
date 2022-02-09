@@ -1,11 +1,22 @@
 .squares {
-      border: 5px solid darkblue;
-      color: white;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+  border: 5px solid darkblue;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.X {
-      color: white;
+.X::after {
+  content: "\274c";
+  font-size: 50px;
+  color: #fff;
+  text-align: center;
+}
+
+.O {
+  width: 30px;
+  height: 30px;
+  background: red;
+  border-radius: 50%;
+  text-align: center;
 }
