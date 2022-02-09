@@ -3,21 +3,17 @@ import Board from "../Board/index";
 import { useState } from "react";
 
 function App() {
-  let x = "x";
-  let o = "o";
   const [player, setPlayer] = useState("");
+  const [xIsNext, setxIsNext] = useState(false);
+  let xo = xIsNext ? "X" : "O";
 
   function handleBoardClick() {
-    if (x) {
-      setPlayer(o);
-      console.log(player);
-    } else if ("" || o) {
-      setPlayer(x);
-    }
+    console.log(xo);
+    setxIsNext(!xIsNext);
   }
   return (
     <div className="App">
-      <Board onClick={handleBoardClick} value={player} />
+      <Board onClick={handleBoardClick} value={xo} />
     </div>
   );
 }
