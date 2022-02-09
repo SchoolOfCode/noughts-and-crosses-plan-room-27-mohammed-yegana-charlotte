@@ -1,17 +1,19 @@
 .board {
-      height: 500px;
-      width: 500px;
-      margin: 0 auto;
-      background-color: blue;
-      border: 5px solid darkblue;
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      grid-template-rows: repeat(3, 1fr);
+  margin-top: 200px;
+  height: 500px;
+  width: 500px;
+  margin: 0 auto;
+  background-color: blue;
+  border: 5px solid darkblue;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
 }
 
 .square {
-      border: 5px solid darkblue;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+  border: 5px solid darkblue;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
