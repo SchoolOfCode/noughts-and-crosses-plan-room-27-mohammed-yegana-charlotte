@@ -2,17 +2,17 @@ import React from "react";
 import "./style.css";
 
 export default function Board() {
-  return (
-    <div className="parent">
-      <div className="square">hello </div>
-      <div>world</div>
-      <div>bye</div>
-      <div>bye</div>
-      <div>bye</div>
-      <div>bye</div>
-      <div>bye</div>
-      <div>bye</div>
-      <div>bye</div>
-    </div>
-  );
+      return (
+            <div className="board">
+                  <div className="square"></div>
+                  <div className="square"></div>
+                  <div className="square"></div>
+                  <div className="square"></div>
+                  <div className="square"> </div>
+                  <div className="square"> </div>
+                  <div className="square"> </div>
+                  <div className="square"> </div>
+                  <div className="square"> </div>
+            </div>
+      );
 }

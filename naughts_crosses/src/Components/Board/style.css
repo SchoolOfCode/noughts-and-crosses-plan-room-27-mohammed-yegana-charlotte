@@ -1,8 +1,17 @@
-.parent {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
-  background-color: blue;
+.board {
+      height: 500px;
+      width: 500px;
+      margin: 0 auto;
+      background-color: blue;
+      border: 5px solid darkblue;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+}
+
+.square {
+      border: 5px solid darkblue;
+      display: flex;
+      justify-content: center;
+      align-items: center;
 }
