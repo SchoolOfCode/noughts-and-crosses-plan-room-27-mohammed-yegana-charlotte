@@ -1,0 +1,11 @@
+.squares {
+      border: 5px solid darkblue;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+.X {
+      color: white;
+}
